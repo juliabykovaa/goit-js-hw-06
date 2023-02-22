@@ -1,0 +1,29 @@
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    transition: 500ms linear;
+}
+
+a:hover {
+    font-size: larger;
+}
+li {
+    list-style: none;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery-image {
+    height: 150px;
+    transition: 500ms linear;
+}
+
+.gallery-image:hover {
+    height: 155px;
+    
+}
