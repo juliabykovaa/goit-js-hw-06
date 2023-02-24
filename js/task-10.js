@@ -28,5 +28,5 @@ createButton.addEventListener("click", (event) => {
 })
 
 destroyButton.addEventListener("click", () => {
-  boxesEl.innerHTML = '';
+  boxesEl.remove();
 })
